@@ -1988,9 +1988,9 @@ Transform:
   - {fileID: 2127787486066732226}
   - {fileID: 2694897194378912978}
   - {fileID: 1923418577117845141}
-  - {fileID: 6703514752036057966}
-  - {fileID: 6590584513099853624}
-  - {fileID: 8775638618427512333}
+  - {fileID: 7818413090239842618}
+  - {fileID: 7504549071075570703}
+  - {fileID: 2111105493579258340}
   - {fileID: 8093391823480553452}
   - {fileID: 2077727288844187278}
   - {fileID: 8180988141727734980}
@@ -2084,6 +2084,122 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1725276474195494897
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8702555618869335524}
+    m_Modifications:
+    - target: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_Name
+      value: LiDAR 128 channel
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _maxRange
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _scanPattern
+      value: 
+      objectReference: {fileID: 11400000, guid: e4461be772cd0b7488ed536ecd21f9db, type: 2}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _pointsNumPerScan
+      value: 460800
+      objectReference: {fileID: 0}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _gaussianNoiseSigma
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649015881702736681, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _topicName
+      value: /Evolo/Lidar/HighRes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649015881702736681, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _serializer._header._frame_id
+      value: Evolo/lidar_link_gt
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7795029278226922493}
+  m_SourcePrefab: {fileID: 100100000, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+--- !u!4 &2111105493579258340 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+  m_PrefabInstance: {fileID: 1725276474195494897}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2111105493579258341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+  m_PrefabInstance: {fileID: 1725276474195494897}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7795029278226922493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111105493579258341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc224755f938807d9f9ef16cbb86d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkName: lidar_link
+  retryUntilSuccess: 1
+  rotateForROSCamera: 0
+  roll: 0
+  pitch: 0
+  yaw: 0
 --- !u!1001 &1972190855374239334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2166,7 +2282,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7714421906245486986, guid: eed1d2ed1b093f5a6ab21512c8cefe12, type: 3}
   m_PrefabInstance: {fileID: 1972190855374239334}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3701524830838549745
+--- !u!1001 &7104653896334338586
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2174,211 +2290,98 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8702555618869335524}
     m_Modifications:
-    - target: {fileID: 146935429789508264, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: _topicName
-      value: /Evolo/Lidar/LowRes
-      objectReference: {fileID: 0}
-    - target: {fileID: 146935429789508264, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: _serializer._header._frame_id
-      value: Evolo/lidar_link_gt
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_Name
-      value: LiDAR 16 channel res
+      value: LiDAR 32 channel
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.35
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840767151517, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _maxRange
-      value: 130
+      value: 150
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840767151517, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _scanPattern
       value: 
-      objectReference: {fileID: 11400000, guid: f0221c83205fa634c8ecd626305d9072, type: 2}
-    - target: {fileID: 7951630840767151517, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+      objectReference: {fileID: 11400000, guid: 3bb52ca1b0a69a047b26a25306de8dc4, type: 2}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _pointsNumPerScan
-      value: 57600
+      value: 115200
       objectReference: {fileID: 0}
-    - target: {fileID: 7951630840767151517, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _gaussianNoiseSigma
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2750547590505071211}
-  m_SourcePrefab: {fileID: 100100000, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
---- !u!4 &6703514752036057966 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-  m_PrefabInstance: {fileID: 3701524830838549745}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6703514752036057967 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-  m_PrefabInstance: {fileID: 3701524830838549745}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2750547590505071211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703514752036057967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cc224755f938807d9f9ef16cbb86d5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  linkName: lidar_link
-  retryUntilSuccess: 1
-  rotateForROSCamera: 0
-  roll: 0
-  pitch: 0
-  yaw: 0
---- !u!1001 &3832470565643989159
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8702555618869335524}
-    m_Modifications:
-    - target: {fileID: 146935429789508264, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 2649015881702736681, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _topicName
       value: /Evolo/Lidar/MidRes
       objectReference: {fileID: 0}
-    - target: {fileID: 146935429789508264, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - target: {fileID: 2649015881702736681, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _serializer._header._frame_id
       value: Evolo/lidar_link_gt
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_Name
-      value: LiDAR 32 channel res
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840767151517, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: _maxRange
-      value: 130
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951630840767151517, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-      propertyPath: _gaussianNoiseSigma
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9119605495649181633}
-  m_SourcePrefab: {fileID: 100100000, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
---- !u!4 &6590584513099853624 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7951630840362459039, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-  m_PrefabInstance: {fileID: 3832470565643989159}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6590584513099853625 stripped
+      addedObject: {fileID: 8420128664425534281}
+  m_SourcePrefab: {fileID: 100100000, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+--- !u!1 &7504549071075570702 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 7951630840362459038, guid: 6825db6566afb4777a9c501573225c6b, type: 3}
-  m_PrefabInstance: {fileID: 3832470565643989159}
+  m_CorrespondingSourceObject: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+  m_PrefabInstance: {fileID: 7104653896334338586}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &9119605495649181633
+--- !u!114 &8420128664425534281
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6590584513099853625}
+  m_GameObject: {fileID: 7504549071075570702}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cc224755f938807d9f9ef16cbb86d5b, type: 3}
@@ -2390,7 +2393,12 @@ MonoBehaviour:
   roll: 0
   pitch: 0
   yaw: 0
---- !u!1001 &6192133383735480873
+--- !u!4 &7504549071075570703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+  m_PrefabInstance: {fileID: 7104653896334338586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7367286205490829103
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2398,67 +2406,67 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8702555618869335524}
     m_Modifications:
-    - target: {fileID: 3181709939929867814, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
-      propertyPath: _maxRange
-      value: 130
+    - target: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_Name
+      value: LiDAR 16 channel
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709939929867814, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
-      propertyPath: _gaussianNoiseSigma
-      value: 0
+    - target: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.35
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412837, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
-      propertyPath: m_Name
-      value: LiDAR 128 channel res
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _maxRange
+      value: 150
       objectReference: {fileID: 0}
-    - target: {fileID: 3181709940334412837, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 773861080551603223, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+      propertyPath: _gaussianNoiseSigma
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4644458840646744339, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 2649015881702736681, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _topicName
-      value: /Evolo/Lidar/HighRes
+      value: /Evolo/Lidar/LowRes
       objectReference: {fileID: 0}
-    - target: {fileID: 4644458840646744339, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - target: {fileID: 2649015881702736681, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       propertyPath: _serializer._header._frame_id
       value: Evolo/lidar_link_gt
       objectReference: {fileID: 0}
@@ -2466,22 +2474,27 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3181709940334412837, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8576766352991586413}
-  m_SourcePrefab: {fileID: 100100000, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
---- !u!1 &8775638618427512332 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3181709940334412837, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
-  m_PrefabInstance: {fileID: 6192133383735480873}
+      addedObject: {fileID: 3790303159272848528}
+  m_SourcePrefab: {fileID: 100100000, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+--- !u!4 &7818413090239842618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 773861078808927765, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+  m_PrefabInstance: {fileID: 7367286205490829103}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8576766352991586413
+--- !u!1 &7818413090239842619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 773861078808927764, guid: d7ba18bcf853116459c3becb08f01c65, type: 3}
+  m_PrefabInstance: {fileID: 7367286205490829103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3790303159272848528
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8775638618427512332}
+  m_GameObject: {fileID: 7818413090239842619}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cc224755f938807d9f9ef16cbb86d5b, type: 3}
@@ -2493,8 +2506,3 @@ MonoBehaviour:
   roll: 0
   pitch: 0
   yaw: 0
---- !u!4 &8775638618427512333 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3181709940334412836, guid: cf00a1b55e7fa11fc8e012af557d4715, type: 3}
-  m_PrefabInstance: {fileID: 6192133383735480873}
-  m_PrefabAsset: {fileID: 0}
